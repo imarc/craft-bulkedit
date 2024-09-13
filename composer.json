@@ -2,6 +2,7 @@
     "name": "venveo/craft-bulkedit",
     "description": "Bulk edit Craft CMS element fields",
     "type": "craft-plugin",
+    "version" : "2.2.2",
     "keywords": [
         "craft",
         "cms",
@@ -21,8 +22,8 @@
         }
     ],
     "require": {
-        "craftcms/cms": "^4.0.0",
-        "php": "^8.0.2"
+        "craftcms/cms": "^4.0.0 | ^5.0.0",
+        "php": "^8.2"
     },
     "autoload": {
         "psr-4": {
